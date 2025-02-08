@@ -1,0 +1,30 @@
+Update Repository :
+
+git remote set-url origin https://github.com/VishalYadav1311/FileIoJava.git
+
+cloning reop:
+
+git clone https://github.com/your-username/your-repo.git
+
+All inputstream classes :
+
+java.lang.Object
+  └── java.io.InputStream  (Abstract Superclass)
+       ├── ByteArrayInputStream
+       ├── FileInputStream
+       ├── FilterInputStream
+       │    ├── BufferedInputStream
+       │    ├── DataInputStream
+       │    ├── PushbackInputStream
+       │    ├── LineNumberInputStream (Deprecated)
+       │    └── CheckedInputStream (from java.util.zip)
+       ├── ObjectInputStream
+       ├── PipedInputStream
+       ├── SequenceInputStream
+       ├── StringBufferInputStream (Deprecated)
+       ├── AudioInputStream (from javax.sound.sampled)
+       ├── DeflaterInputStream (from java.util.zip)
+       │    ├── GZIPInputStream
+       │    ├── InflaterInputStream
+       │    └── ZipInputStream
+       └── CipherInputStream (from javax.crypto)
