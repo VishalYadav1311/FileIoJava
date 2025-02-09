@@ -10,16 +10,16 @@ All inputstream classes :
 
 java.lang.Object
   └── java.io.InputStream  (Abstract Superclass)
-       ├── ByteArrayInputStream
-       ├── FileInputStream
+       ├── ByteArrayInputStream           done
+       ├── FileInputStream                done
        ├── FilterInputStream
-       │    ├── BufferedInputStream
-       │    ├── DataInputStream
+       │    ├── BufferedInputStream       done
+       │    ├── DataInputStream           done
        │    ├── PushbackInputStream
        │    ├── LineNumberInputStream (Deprecated)
-       │    └── CheckedInputStream (from java.util.zip)
-       ├── ObjectInputStream
-       ├── PipedInputStream
+       │    └── Checked InputStream (from java.util.zip)
+       ├── ObjectInputStream              done
+       ├── PipedInputStream               done
        ├── SequenceInputStream
        ├── StringBufferInputStream (Deprecated)
        ├── AudioInputStream (from javax.sound.sampled)
@@ -28,3 +28,21 @@ java.lang.Object
        │    ├── InflaterInputStream
        │    └── ZipInputStream
        └── CipherInputStream (from javax.crypto)
+
+characterStreamIO.java heierarchy
+
+java.lang.Object
+  └── java.io.Reader  (Abstract Superclass)
+       ├── PipedReader
+       ├── BufferedReader
+       │    └── LineNumberReader (Deprecated)
+       └── CharArrayReader
+
+characterStreamIO.java heierarchy
+
+java.lang.Object
+  └── java.io.Writer  (Abstract Superclass)
+       ├── Pipewriter
+       ├── BufferedWriter
+       │    └── LineNumberWriter (Deprecated)
+       └── CharArrayWriter
